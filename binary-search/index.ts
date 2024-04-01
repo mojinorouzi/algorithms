@@ -2,7 +2,7 @@
 
 const binarySearch = (numbers: number[], start: number,
     end: number, target: number): number => {
-    const mid = Math.floor((end - start) / 2)
+    const mid = Math.floor((end + start) / 2)
     if (target === numbers[mid]) {
         return mid
     }
